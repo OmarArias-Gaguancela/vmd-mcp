@@ -1,4 +1,4 @@
-# vmd-mcp — Plain Language Control of VMD2 via Claude MCP
+# vmd-mcp: Plain Language Control of VMD2 via Claude MCP
 
 ![Python 3.11+](https://img.shields.io/badge/Python-3.11%2B-blue?logo=python&logoColor=white)
 ![License: MIT](https://img.shields.io/badge/License-MIT-green)
