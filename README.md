@@ -5,7 +5,7 @@
 ![Platform: Windows](https://img.shields.io/badge/Platform-Windows-informational?logo=windows)
 
 **Author:** Omar Arias-Gaguancela, PhD  
-**Affiliations:** [SciLearningWorkshops LLC]
+**Affiliations:** SciLearningWorkshops LLC
 
 ---
 
