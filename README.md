@@ -11,7 +11,7 @@
 
 ## What Is vmd-mcp?
 
-`vmd-mcp` is a [Model Context Protocol (MCP)](https://modelcontextprotocol.io) server that gives Claude direct, programmatic control over **VMD2** (Visual Molecular Dynamics). Instead of writing Tcl scripts or navigating VMD's GUI, you describe what you want in plain English and Claude handles the rest — loading structures, setting up representations, measuring distances, computing RMSD, rendering images, and more.
+`vmd-mcp` is a [Model Context Protocol (MCP)](https://modelcontextprotocol.io) server that gives Claude direct, programmatic control over **VMD2** (Visual Molecular Dynamics). Instead of writing Tcl scripts or navigating VMD's GUI, you describe what you want in plain English and Claude handles the rest, loading structures, setting up representations, measuring distances, computing RMSD, rendering images, and more.
 
 ### Why It Matters for Computational Biologists
 
@@ -24,13 +24,13 @@ With this tool, a researcher can go from trajectory file to publication-quality 
 ## Key Features
 
 - **23 MCP tools** covering structure loading, trajectory navigation, representations, measurements, rendering, and Tcl passthrough
-- **Natural language interface** — ask Claude to visualize a protein, measure a distance, or compute RMSD in plain English
-- **Subprocess mode** — launches and controls VMD2 headlessly on Windows with no manual Tcl scripting needed
+- **Natural language interface** : ask Claude to visualize a protein, measure a distance, or compute RMSD in plain English
+- **Subprocess mode** : launches and controls VMD2 headlessly on Windows with no manual Tcl scripting needed
 - **Security-first design** — all file paths are validated against a configurable allowlist; Tcl commands are sanitized to block dangerous operations (`exec`, `open`, `file`, `socket`, etc.)
-- **Windows-native** — includes the `CREATE_NO_WINDOW` subprocess fix so no stray console windows appear during operation
-- **Socket mode** — optionally connect to a pre-running VMD instance on `localhost:5555`
-- **Mock VMD server** — test the full pipeline without VMD installed using `mock_vmd.py`
-- **MCP Resources** — Claude can query live VMD state (`vmd://status`, `vmd://molecules`, `vmd://selections-guide`) before issuing commands
+- **Windows-native** : includes the `CREATE_NO_WINDOW` subprocess fix so no stray console windows appear during operation
+- **Socket mode**: optionally connect to a pre-running VMD instance on `localhost:5555`
+- **Mock VMD server** : test the full pipeline without VMD installed using `mock_vmd.py`
+- **MCP Resources** : Claude can query live VMD state (`vmd://status`, `vmd://molecules`, `vmd://selections-guide`) before issuing commands
 
 ---
 
