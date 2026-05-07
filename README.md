@@ -209,7 +209,7 @@ Render a high-quality Tachyon image to C:\Users\me\Desktop\figure1.tga.
 Save the current VMD session to C:\Users\me\Desktop\session.vmd.
 ```
 
-### Quick Reference — All Tools
+### Quick Reference: All Tools
 
 | Natural language | Tool |
 |---|---|
