@@ -388,4 +388,3 @@ THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLI
 
 ---
 
-*Built with the [Model Context Protocol](https://modelcontextprotocol.io) · Powered by [Claude](https://claude.ai)*
