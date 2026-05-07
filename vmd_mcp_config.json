@@ -1,0 +1,13 @@
+{
+  "vmd_executable": "C:\\Program Files\\University of Illinois\\VMD2\\vmd.exe",
+  "communication_mode": "subprocess",
+  "socket_host": "localhost",
+  "socket_port": 5555,
+  "socket_timeout": 10.0,
+  "subprocess_args": ["-dispdev", "win"],
+  "allowed_directories": [
+    "C:\\Users\\14057\\Desktop",
+    "C:\\Users\\14057\\Documents",
+    "C:\\Users\\14057\\Downloads"
+  ]
+}
