@@ -100,7 +100,7 @@ If your installation path differs, open `vmd_mcp_config.json` and update `vmd_ex
 
 ## Registering vmd-mcp with Claude Code
 
-### Option A — Claude Code CLI
+### Option A: Claude Code CLI
 
 ```powershell
 claude mcp add vmd-mcp `
@@ -108,7 +108,7 @@ claude mcp add vmd-mcp `
   --args "C:\Users\YourName\Desktop\vmd-mcp\vmd_mcp_server.py"
 ```
 
-### Option B — Manual Config
+### Option B: Manual Config
 
 Edit `%APPDATA%\Claude\claude_desktop_config.json` (desktop app) or `.claude.json` (CLI):
 
@@ -133,7 +133,7 @@ Claude will enumerate all 23 tools if the server is connected correctly.
 
 ---
 
-## Usage — Example Natural Language Prompts
+## Usage: Example Natural Language Prompts
 
 ### Loading Structures and Trajectories
 
